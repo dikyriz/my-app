@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 
 export function BlogDetail () {
     const params = useParams();
+    console.log(params.slug);
     return (
     <>
 
