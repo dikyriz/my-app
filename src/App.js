@@ -8,11 +8,12 @@ import Dasboard from './Dashboard';
 import Home from './Home';
 import Login from './Login';
 import NotFound from './NotFound';
+import Cart from './pages/Cart';
 
 function App() {
   return (
     <div className="App">
-    <Link to='/'>Home</Link>
+    {/* <Link to='/'>Home</Link>
     <Link to='/about'>About</Link>  
     <Link to="/blog">Blog</Link> 
     <Link to="/login">Login</Link>
@@ -26,7 +27,8 @@ function App() {
         <Route path='login' element={<Login/>}/>
         <Route path='dasboard' element={<Dasboard/>}/>
         <Route path='*' element={<NotFound/>}/>
-      </Routes>      
+      </Routes>       */}
+      <Cart/>
     </div>
   );
 }
