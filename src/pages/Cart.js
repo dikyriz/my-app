@@ -15,13 +15,14 @@ export default function Cart(props) {
     const [payment, setPayment] = useState();
 
     ////////////
-    let grab = payment;
-    let teks = grab.toString();
-        let result = teks.substring(0, 2);
-        let results = teks.substring(2, 4);
-        let combine_ress = result + "." + results;
-        let number = parseFloat(combine_ress);
-        console.log(number);
+    // let grab = payment;
+    // let teks = grab.toString();
+    //     let result = teks.substring(0, 2);
+    //     let results = teks.substring(2, 4);
+    //     let resultss = teks.substring(4, 6) + teks.substring(6, 8);
+    //     let combine_ress = result + "." + results + resultss;
+    //     let number = parseFloat(combine_ress);
+    //     console.log(number);
 
     useEffect(function (){
         setPrice(1799 * counter.value);
@@ -34,10 +35,10 @@ export default function Cart(props) {
     });
     
     return(
-    <section>
+    <section className="cont">
     <h1 className="title">Shopping Cart</h1>
-    <div className="container">
-        <div className="card">
+    <div className="container-fluid">
+        <div className="card cart">
                 <h3 className="title-card">Cart (2 items)</h3>
                 <div className="card-container">
                     <img src={KausMerah} alt='kaus-merah' className="img-kaus" />
@@ -92,12 +93,12 @@ export default function Cart(props) {
             <div className="card">
                 <h3 className="title-card">The total amount of</h3>
                 <div className="container-totals">
-                    <p className="payments">Temporary Amount <span className="payments-ship-child">${number}</span></p>
+                    <p className="payments">Temporary Amount <span className="payments-ship-child">${payment}</span></p>
                     <p className="shipping-cart">Shipping <span className="payments-ship-child">Gratis</span></p>
                     <div className="borders-totals"></div>
-                    <h4 className="totals-payment">The total amount of <span className="totals-payment-child">(Including VAT)<span className="payments-child">${number}</span></span></h4>
+                    <h4 className="totals-payment">The total amount of <span className="totals-payment-child">(Including VAT)<span className="payments-child">${payment}</span></span></h4>
                 </div>
-                <button className="btn btn-primary">GO TO CHECKOUT</button>
+                <button className="btn btn-primary check">GO TO CHECKOUT</button>
             </div>
             <div className="card">
                 <p className="optional">Add a discount code [optional] <span className="icon-payment"><i className="fa-solid fa-angle-down"></i></span></p>
