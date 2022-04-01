@@ -229,57 +229,45 @@
   .totals h3 {
     font-size: 15.5px;
   }
-
   .btn.btn-primary.check {
     width: 150px;
     font-size: 8px;
     font-weight: 400;
   }
-
   .container-totals {
     font-size: 12px;
   }
-
   .container-totals h4 {
     font-size: 14px;
   }
-
   .container-totals h4 .totals-payment-child {
     font-size: 12px;
     font-weight: 400;
   }
-
   .optional {
     font-size: 9.9px;
     font-weight: 400;
   }
-
   .icon-desc {
     font-size: 8px;
     font-weight: 600;
   }
-
   .card.cart {
     width: 560px;
   }
-
   .input-container p {
     font-size: 10px;
     font-weight: 400;
   }
-
   .input-container {
     margin-right: 10px;
   }
-
   .pay {
     font-size: 15px;
   }
-
   .card-desc h5 {
     font-size: 20px;
   }
-
   .card-desc p {
     font-size: 13.8px;
   }
@@ -291,7 +279,6 @@
     font-size: 12px;
     font-weight: 400;
   }
-
   .optional {
     font-size: 13.7px;
     font-weight: 400;
@@ -302,20 +289,15 @@
   * {
     margin: 0;
   }
-
   .cont {
     width: 100%;
   }
-
   .container-fluid {
     flex-direction: column;
-
   }
-
   .card.cart {
     width: 100%;
   }
-
   .totals {
     margin-left: 0;
     width: 100%;
@@ -332,10 +314,15 @@
 @media only screen and (max-width: 450px) {
   .container-fluid {
     flex-direction: column;
-
   }
-
   .card-container {
     flex-direction: column;
+  }
+  .title-card {
+    font-size: 14px;
+  }
+  .card-desc {
+    padding-left: 0;
+    flex: 0;
   }
 }
