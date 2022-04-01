@@ -10,98 +10,6 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 920px){
-  .totals h3 {
-    font-size: 15.5px;
-  }
-  .btn.btn-primary.check {
-    width: 150px;
-    font-size: 8px;
-    font-weight: 400;
-  }
-  .container-totals {
-    font-size: 12px;
-  }
-  .container-totals h4 {
-    font-size: 14px;
-  }
-  .container-totals h4 .totals-payment-child {
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .optional{
-    font-size: 9.9px;
-    font-weight: 400;
-  }
-  .icon-desc {
-    font-size: 8px;
-    font-weight: 600;
-  }
-  .card.cart {
-    width: 560px;
-  }
-  .input-container p {
-    font-size: 10px;
-    font-weight: 400;
-  }
-  .input-container {
-    margin-right: 10px;
-  }
-  .pay {
-    font-size: 15px;
-  }
-  .card-desc h5{
-    font-size: 20px;
-  }
-  .card-desc p {
-    font-size: 13.8px;
-  }
-}
-
-@media only screen and (min-width: 1024px){
-  .btn.btn-primary.check {
-    width: 200px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .optional {
-    font-size: 13.7px;
-    font-weight: 400;
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  * {
-    margin: 0;
-  }
-  .cont {
-    width: 100%;
-  }
-  .container-fluid {
-    flex-direction: column;
-    
-  }
-  .card.cart {
-    width: 100%;
-  }
-  .totals {
-    margin-left: 0;
-  }
-  .card {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .container-fluid {
-    flex-direction: column;
-
-  }
-
-  .card-container {
-    flex-direction: column;
-  }
-}
 
 .title {
   text-align: center;
@@ -315,4 +223,119 @@
 
 .conters {
   width: 300px;
+}
+
+@media only screen and (max-width: 920px) {
+  .totals h3 {
+    font-size: 15.5px;
+  }
+
+  .btn.btn-primary.check {
+    width: 150px;
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  .container-totals {
+    font-size: 12px;
+  }
+
+  .container-totals h4 {
+    font-size: 14px;
+  }
+
+  .container-totals h4 .totals-payment-child {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .optional {
+    font-size: 9.9px;
+    font-weight: 400;
+  }
+
+  .icon-desc {
+    font-size: 8px;
+    font-weight: 600;
+  }
+
+  .card.cart {
+    width: 560px;
+  }
+
+  .input-container p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .input-container {
+    margin-right: 10px;
+  }
+
+  .pay {
+    font-size: 15px;
+  }
+
+  .card-desc h5 {
+    font-size: 20px;
+  }
+
+  .card-desc p {
+    font-size: 13.8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .btn.btn-primary.check {
+    width: 200px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .optional {
+    font-size: 13.7px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  * {
+    margin: 0;
+  }
+
+  .cont {
+    width: 100%;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+
+  }
+
+  .card.cart {
+    width: 100%;
+  }
+
+  .totals {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card:last-child{
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-fluid {
+    flex-direction: column;
+
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
 }
