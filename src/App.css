@@ -311,18 +311,48 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 400px) {
   .container-fluid {
     flex-direction: column;
   }
   .card-container {
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
   }
   .title-card {
     font-size: 14px;
   }
   .card-desc {
-    padding-left: 0;
-    flex: 0;
+  }
+  .card-desc h5 {
+    font-size: 14px;
+  }
+  .card-desc p {
+    font-size: 10px;
+  }
+  .img-kaus {
+    display: flex;
+  }
+  .icon-desc {
+    font-size: 0;
+    color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+  }
+  .icons {
+    display: flex;
+  }
+  .input {
+    margin-top: 10px;
+  }
+  .pay {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+  }
+  .card.cart {
+    height: 550px;
   }
 }
