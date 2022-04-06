@@ -81,8 +81,12 @@ export default function Cart(props) {
                         <i className="fa-solid fa-plus"></i>
                         </button>
                     </div>
-                    <div>
-                        (Note, 1 place)
+                    <div className="col">
+                        <h6 className="text-center">
+                            <small>
+                                (Note, 1 place)
+                            </small> 
+                        </h6>
                     </div>
                 </div>
             </div>            
