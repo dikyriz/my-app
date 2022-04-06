@@ -35,10 +35,60 @@ export default function Cart(props) {
     });
     
     return(
-    <section className="cont">
+    <>
     <h1 className="title">Shopping Cart</h1>
-    <div className="container-fluid">
-        <div className="card cart">
+    <div className="container" style={{ }}>
+        <div className="row card w-75 shadow p-4 mb-4 border border-0">
+            <h3 className="title-card">Cart (2 items)</h3>
+            <div className="d-flex flex-row">
+                <div className="col">
+                    <img src={KausMerah} className="card-img-left rounded-3 shadow-sm" alt="kaus-merah" style={{height: 150, width: 120 ,objectFit: "cover"}}/>
+                </div>
+                <div className="col-6 card-body ">
+                    <h5 className="card-title" style={{ color: "#89969c" }}>
+                        Red Shirt
+                    </h5>
+                    <p className="card-text">
+                        T-SHIRT01
+                        <span className="text-child">
+                            RED
+                        </span>
+                    </p>
+                    <p className="card-text">
+                        COLOR
+                        <span className="text-child">
+                            RED
+                        </span>
+                    </p>
+                    <p className="card-text">
+                        SIZE
+                        <span className="text-child">
+                            M
+                        </span>
+                    </p>
+                    <div className="d-flex  icons">
+                        <i className="fa-solid fa-trash icon"><span className="icon-desc">REMOVE ITEM</span></i>
+                        <i className="fa-solid fa-heart icon"><span className="icon-desc">MOVE TO WISH LIST</span></i>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className=" btn-group btn-group-sm" role="group">                  
+                        <button type="button" className="btn btn-outline-dark ps-3 pe-3">
+                        <i className="fa-solid fa-minus"></i>
+                        </button>
+                        <button type="text" className="btn btn-outline-dark ps-3 pe-3" style={{ pointerEvents: "none" }}>3</button>
+                        <button type="button" className="btn btn-outline-dark ps-3 pe-3">
+                        <i className="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div>
+                        (Note, 1 place)
+                    </div>
+                </div>
+            </div>            
+            
+        </div>
+        {/* <div className="card cart">
                 <h3 className="title-card">Cart (2 items)</h3>
                 <div className="card-container">
                     <img src={KausMerah} alt='kaus-merah' className="img-kaus" />
@@ -103,9 +153,9 @@ export default function Cart(props) {
             <div className="card">
                 <p className="optional">Add a discount code [optional] <span className="icon-payment"><i className="fa-solid fa-angle-down"></i></span></p>
             </div>
-        </div>
+        </div> */}
         
     </div>
-    </section>
+    </>
     );
 }
