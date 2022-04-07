@@ -204,9 +204,9 @@
   margin-bottom: 13px;
 }
 
-.card:last-child{
+/* .card:last-child{
   margin-top: 20px;
-}
+} */
 
 .optional {
   justify-content: center;
