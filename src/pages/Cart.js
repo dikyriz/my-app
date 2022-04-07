@@ -71,7 +71,7 @@ export default function Cart(props) {
                         <i className="fa-solid fa-heart icon"><span className="icon-desc">MOVE TO WISH LIST</span></i>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col d-flex flex-column">
                     <div className=" btn-group btn-group-sm" role="group">                  
                         <button type="button" className="btn btn-outline-dark ps-3 pe-3">
                         <i className="fa-solid fa-minus"></i>
@@ -81,16 +81,17 @@ export default function Cart(props) {
                         <i className="fa-solid fa-plus"></i>
                         </button>
                     </div>
-                    <div className="col">
                         <h6 className="text-center">
                             <small>
                                 (Note, 1 place)
                             </small> 
                         </h6>
-                    </div>
+                        <p className="text-end mb-0 small ms-auto mt-auto">
+                            $17.99
+                        </p>
                 </div>
             </div> 
-             <div className="d-flex flex-row mt-4">
+             <div className="d-flex flex-row mt-3 pt-3 border-top">
                 <div className="col">
                     <img src={KausMerah} className="card-img-left rounded-3 shadow-sm" alt="kaus-merah" style={{height: 150, width: 120 ,objectFit: "cover"}}/>
                 </div>
@@ -121,7 +122,7 @@ export default function Cart(props) {
                         <i className="fa-solid fa-heart icon"><span className="icon-desc">MOVE TO WISH LIST</span></i>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col d-flex flex-column">
                     <div className=" btn-group btn-group-sm" role="group">                  
                         <button type="button" className="btn btn-outline-dark ps-3 pe-3">
                         <i className="fa-solid fa-minus"></i>
@@ -131,13 +132,9 @@ export default function Cart(props) {
                         <i className="fa-solid fa-plus"></i>
                         </button>
                     </div>
-                    <div className="col">
-                        <h6 className="text-center">
-                            <small>
-                                (Note, 1 place)
-                            </small> 
-                        </h6>
-                    </div>
+                        <p className="text-end mb-0 small ms-auto mt-auto">
+                            $35.99
+                        </p>
                 </div>
             </div>           
             
