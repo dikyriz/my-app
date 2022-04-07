@@ -37,7 +37,7 @@ export default function Cart(props) {
     return(
     <>
     <h1 className="title">Shopping Cart</h1>
-    <div className="container" style={{ }}>
+    <div className="container d-flex" style={{ }}>
         <div className="row card w-75 shadow p-4 mb-4 border border-0">
             <h3 className="title-card">Cart (2 items)</h3>
             <div className="d-flex flex-row">
@@ -139,6 +139,49 @@ export default function Cart(props) {
             </div>           
             
         </div>
+        <div className="row card w-25 h-50 shadow p-2 mb-4 ms-4 border border-0">
+            <h3 className="title-card">The total amount of</h3>
+            <div className="d-flex"> 
+                <div className="col">
+                    <p className="small">
+                        Temporary Amount
+                    </p>
+                </div>
+                <div className="col text-end">
+                    <p className="small mb-0">
+                        3456
+                    </p>
+                </div>
+            </div>
+            <div className="d-flex border-bottom"> 
+                <div className="col">
+                    <p className="small">
+                        Shipping
+                    </p>
+                </div>
+                <div className="col text-end">
+                    <p className="small mb-0">
+                        Gratis
+                    </p>
+                </div>
+            </div>
+            <div className="d-flex mt-2"> 
+                <div className="col">
+                    <p className="small">
+                        The total amount of (Including VAT)
+                    </p>
+                </div>
+                <div className="col-5 text-end mt-auto mb-auto">
+                    <p className="small mb-0">
+                        3456
+                    </p>
+                </div>
+            </div>
+            <button type="button" className="btn btn-primary mt-1">
+                GO TO CHECKOUT
+            </button>            
+        </div>
+
         {/* <div className="card cart">
                 <h3 className="title-card">Cart (2 items)</h3>
                 <div className="card-container">
