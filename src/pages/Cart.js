@@ -93,22 +93,22 @@ export default function Cart(props) {
             </div> 
              <div className="d-flex flex-row mt-3 pt-3 border-top">
                 <div className="col">
-                    <img src={KausMerah} className="card-img-left rounded-3 shadow-sm" alt="kaus-merah" style={{height: 150, width: 120 ,objectFit: "cover"}}/>
+                    <img src={KausHitam} className="card-img-left rounded-3 shadow-sm" alt="kaus-hitam" style={{height: 150, width: 120 ,objectFit: "cover"}}/>
                 </div>
                 <div className="col-6 card-body ">
                     <h5 className="card-title" style={{ color: "#89969c" }}>
-                        Red Shirt
+                        BLACK Shirt
                     </h5>
                     <p className="card-text">
-                        T-SHIRT01
+                        T-SHIRT02
                         <span className="text-child">
-                            RED
+                            BLACK
                         </span>
                     </p>
                     <p className="card-text">
                         COLOR
                         <span className="text-child">
-                            RED
+                            BLACK
                         </span>
                     </p>
                     <p className="card-text">
