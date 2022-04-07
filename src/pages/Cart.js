@@ -89,7 +89,57 @@ export default function Cart(props) {
                         </h6>
                     </div>
                 </div>
-            </div>            
+            </div> 
+             <div className="d-flex flex-row mt-4">
+                <div className="col">
+                    <img src={KausMerah} className="card-img-left rounded-3 shadow-sm" alt="kaus-merah" style={{height: 150, width: 120 ,objectFit: "cover"}}/>
+                </div>
+                <div className="col-6 card-body ">
+                    <h5 className="card-title" style={{ color: "#89969c" }}>
+                        Red Shirt
+                    </h5>
+                    <p className="card-text">
+                        T-SHIRT01
+                        <span className="text-child">
+                            RED
+                        </span>
+                    </p>
+                    <p className="card-text">
+                        COLOR
+                        <span className="text-child">
+                            RED
+                        </span>
+                    </p>
+                    <p className="card-text">
+                        SIZE
+                        <span className="text-child">
+                            M
+                        </span>
+                    </p>
+                    <div className="d-flex  icons">
+                        <i className="fa-solid fa-trash icon"><span className="icon-desc">REMOVE ITEM</span></i>
+                        <i className="fa-solid fa-heart icon"><span className="icon-desc">MOVE TO WISH LIST</span></i>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className=" btn-group btn-group-sm" role="group">                  
+                        <button type="button" className="btn btn-outline-dark ps-3 pe-3">
+                        <i className="fa-solid fa-minus"></i>
+                        </button>
+                        <button type="text" className="btn btn-outline-dark ps-3 pe-3" style={{ pointerEvents: "none" }}>3</button>
+                        <button type="button" className="btn btn-outline-dark ps-3 pe-3">
+                        <i className="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div className="col">
+                        <h6 className="text-center">
+                            <small>
+                                (Note, 1 place)
+                            </small> 
+                        </h6>
+                    </div>
+                </div>
+            </div>           
             
         </div>
         {/* <div className="card cart">
